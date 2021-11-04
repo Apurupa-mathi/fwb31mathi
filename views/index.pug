@@ -3,5 +3,17 @@ extends layout
 block content
   h1= title
   p Welcome to #{title}. Hi
-  button(type="button", class="btn btn-secondary") Press me
+  button(type="button", class="btn btn-secondary", onclick="update()") Press me
+
+  br
+  br
+  #target display 
+  script.
+    var client_count = 0;
+    function update(){
+      client_count = client_count + 1;
+      document.getElementById("target").innerHTML = "Value now "+client_count;  
+    }
+  br
+  
   
