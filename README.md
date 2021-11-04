@@ -1,4 +1,7 @@
 # fwb31mathi
+[Heroku Link] (https://fwb31mathi.herokuapp.com/)
 
-
-adding README file to the repo
+#### Class dog
+breed(String)
+age(number)
+gender(string) 
